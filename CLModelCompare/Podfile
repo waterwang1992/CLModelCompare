@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'CLModelCompare' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for CLModelCompare
+
+  pod 'YYModel'
+  pod 'JSONModel'
+  pod 'MJExtension'
+
+
+
+  target 'CLModelCompareTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CLModelCompareUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

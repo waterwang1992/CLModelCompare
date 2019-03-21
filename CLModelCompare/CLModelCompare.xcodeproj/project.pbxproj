@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7D8115CF9DA8FA7C586C0E /* libPods-CLModelCompareUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D66FD0955F5DB73CB874A5C6 /* libPods-CLModelCompareUITests.a */; };
+		C5A9D1ED224335A90028264F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D1EC224335A90028264F /* AppDelegate.m */; };
+		C5A9D1F0224335A90028264F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D1EF224335A90028264F /* ViewController.m */; };
+		C5A9D1F3224335A90028264F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A9D1F1224335A90028264F /* Main.storyboard */; };
+		C5A9D1F6224335A90028264F /* CLModelCompare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D1F4224335A90028264F /* CLModelCompare.xcdatamodeld */; };
+		C5A9D1F8224335AB0028264F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5A9D1F7224335AB0028264F /* Assets.xcassets */; };
+		C5A9D1FB224335AB0028264F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5A9D1F9224335AB0028264F /* LaunchScreen.storyboard */; };
+		C5A9D1FE224335AB0028264F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D1FD224335AB0028264F /* main.m */; };
+		C5A9D208224335AB0028264F /* CLModelCompareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D207224335AB0028264F /* CLModelCompareTests.m */; };
+		C5A9D213224335AB0028264F /* CLModelCompareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D212224335AB0028264F /* CLModelCompareUITests.m */; };
+		C7233D7FE1DD494C6D073490 /* libPods-CLModelCompareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8875CBB3F67106088E2FBBD9 /* libPods-CLModelCompareTests.a */; };
+		D0C10B962CA94C9C37419367 /* libPods-CLModelCompare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 866652331499FD16438A16AB /* libPods-CLModelCompare.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A9D204224335AB0028264F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A9D1E0224335A90028264F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A9D1E7224335A90028264F;
+			remoteInfo = CLModelCompare;
+		};
+		C5A9D20F224335AB0028264F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A9D1E0224335A90028264F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A9D1E7224335A90028264F;
+			remoteInfo = CLModelCompare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01C02A555B65792B6E5F0126 /* Pods-CLModelCompareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompareTests.release.xcconfig"; path = "Target Support Files/Pods-CLModelCompareTests/Pods-CLModelCompareTests.release.xcconfig"; sourceTree = "<group>"; };
+		1C547700F56FB2E99687680F /* Pods-CLModelCompare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompare.debug.xcconfig"; path = "Target Support Files/Pods-CLModelCompare/Pods-CLModelCompare.debug.xcconfig"; sourceTree = "<group>"; };
+		2E424E7526C41BEBD6B525A3 /* Pods-CLModelCompare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompare.release.xcconfig"; path = "Target Support Files/Pods-CLModelCompare/Pods-CLModelCompare.release.xcconfig"; sourceTree = "<group>"; };
+		74786EEEF4D33965E2AE9AA8 /* Pods-CLModelCompareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompareTests.debug.xcconfig"; path = "Target Support Files/Pods-CLModelCompareTests/Pods-CLModelCompareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		866652331499FD16438A16AB /* libPods-CLModelCompare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLModelCompare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8875CBB3F67106088E2FBBD9 /* libPods-CLModelCompareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLModelCompareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B3FFC4ABBA6C89E06F0312B /* Pods-CLModelCompareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompareUITests.debug.xcconfig"; path = "Target Support Files/Pods-CLModelCompareUITests/Pods-CLModelCompareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5A9D1E8224335A90028264F /* CLModelCompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLModelCompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A9D1EB224335A90028264F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5A9D1EC224335A90028264F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5A9D1EE224335A90028264F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5A9D1EF224335A90028264F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5A9D1F2224335A90028264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5A9D1F5224335A90028264F /* CLModelCompare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLModelCompare.xcdatamodel; sourceTree = "<group>"; };
+		C5A9D1F7224335AB0028264F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5A9D1FA224335AB0028264F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5A9D1FC224335AB0028264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A9D1FD224335AB0028264F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5A9D203224335AB0028264F /* CLModelCompareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLModelCompareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A9D207224335AB0028264F /* CLModelCompareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLModelCompareTests.m; sourceTree = "<group>"; };
+		C5A9D209224335AB0028264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A9D20E224335AB0028264F /* CLModelCompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLModelCompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A9D212224335AB0028264F /* CLModelCompareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLModelCompareUITests.m; sourceTree = "<group>"; };
+		C5A9D214224335AB0028264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE178E3AD988F622986B77B /* Pods-CLModelCompareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompareUITests.release.xcconfig"; path = "Target Support Files/Pods-CLModelCompareUITests/Pods-CLModelCompareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D66FD0955F5DB73CB874A5C6 /* libPods-CLModelCompareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLModelCompareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A9D1E5224335A90028264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C10B962CA94C9C37419367 /* libPods-CLModelCompare.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D200224335AB0028264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7233D7FE1DD494C6D073490 /* libPods-CLModelCompareTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D20B224335AB0028264F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7D8115CF9DA8FA7C586C0E /* libPods-CLModelCompareUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34723029761CBF1855AE7E1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				866652331499FD16438A16AB /* libPods-CLModelCompare.a */,
+				8875CBB3F67106088E2FBBD9 /* libPods-CLModelCompareTests.a */,
+				D66FD0955F5DB73CB874A5C6 /* libPods-CLModelCompareUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B152C28AE3F2270A56EC394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C547700F56FB2E99687680F /* Pods-CLModelCompare.debug.xcconfig */,
+				2E424E7526C41BEBD6B525A3 /* Pods-CLModelCompare.release.xcconfig */,
+				74786EEEF4D33965E2AE9AA8 /* Pods-CLModelCompareTests.debug.xcconfig */,
+				01C02A555B65792B6E5F0126 /* Pods-CLModelCompareTests.release.xcconfig */,
+				8B3FFC4ABBA6C89E06F0312B /* Pods-CLModelCompareUITests.debug.xcconfig */,
+				CDE178E3AD988F622986B77B /* Pods-CLModelCompareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5A9D1DF224335A90028264F = {
+			isa = PBXGroup;
+			children = (
+				C5A9D1EA224335A90028264F /* CLModelCompare */,
+				C5A9D206224335AB0028264F /* CLModelCompareTests */,
+				C5A9D211224335AB0028264F /* CLModelCompareUITests */,
+				C5A9D1E9224335A90028264F /* Products */,
+				3B152C28AE3F2270A56EC394 /* Pods */,
+				34723029761CBF1855AE7E1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A9D1E9224335A90028264F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9D1E8224335A90028264F /* CLModelCompare.app */,
+				C5A9D203224335AB0028264F /* CLModelCompareTests.xctest */,
+				C5A9D20E224335AB0028264F /* CLModelCompareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A9D1EA224335A90028264F /* CLModelCompare */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9D1EB224335A90028264F /* AppDelegate.h */,
+				C5A9D1EC224335A90028264F /* AppDelegate.m */,
+				C5A9D1EE224335A90028264F /* ViewController.h */,
+				C5A9D1EF224335A90028264F /* ViewController.m */,
+				C5A9D1F1224335A90028264F /* Main.storyboard */,
+				C5A9D1F7224335AB0028264F /* Assets.xcassets */,
+				C5A9D1F9224335AB0028264F /* LaunchScreen.storyboard */,
+				C5A9D1FC224335AB0028264F /* Info.plist */,
+				C5A9D1FD224335AB0028264F /* main.m */,
+				C5A9D1F4224335A90028264F /* CLModelCompare.xcdatamodeld */,
+			);
+			path = CLModelCompare;
+			sourceTree = "<group>";
+		};
+		C5A9D206224335AB0028264F /* CLModelCompareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9D207224335AB0028264F /* CLModelCompareTests.m */,
+				C5A9D209224335AB0028264F /* Info.plist */,
+			);
+			path = CLModelCompareTests;
+			sourceTree = "<group>";
+		};
+		C5A9D211224335AB0028264F /* CLModelCompareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9D212224335AB0028264F /* CLModelCompareUITests.m */,
+				C5A9D214224335AB0028264F /* Info.plist */,
+			);
+			path = CLModelCompareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5A9D1E7224335A90028264F /* CLModelCompare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A9D217224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompare" */;
+			buildPhases = (
+				AD1CA25D4F8C6235CB63811B /* [CP] Check Pods Manifest.lock */,
+				C5A9D1E4224335A90028264F /* Sources */,
+				C5A9D1E5224335A90028264F /* Frameworks */,
+				C5A9D1E6224335A90028264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLModelCompare;
+			productName = CLModelCompare;
+			productReference = C5A9D1E8224335A90028264F /* CLModelCompare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5A9D202224335AB0028264F /* CLModelCompareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A9D21A224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompareTests" */;
+			buildPhases = (
+				121F44D9314A514587314632 /* [CP] Check Pods Manifest.lock */,
+				C5A9D1FF224335AB0028264F /* Sources */,
+				C5A9D200224335AB0028264F /* Frameworks */,
+				C5A9D201224335AB0028264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A9D205224335AB0028264F /* PBXTargetDependency */,
+			);
+			name = CLModelCompareTests;
+			productName = CLModelCompareTests;
+			productReference = C5A9D203224335AB0028264F /* CLModelCompareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5A9D20D224335AB0028264F /* CLModelCompareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A9D21D224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompareUITests" */;
+			buildPhases = (
+				2C90996F27543FDF71D33EEB /* [CP] Check Pods Manifest.lock */,
+				C5A9D20A224335AB0028264F /* Sources */,
+				C5A9D20B224335AB0028264F /* Frameworks */,
+				C5A9D20C224335AB0028264F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A9D210224335AB0028264F /* PBXTargetDependency */,
+			);
+			name = CLModelCompareUITests;
+			productName = CLModelCompareUITests;
+			productReference = C5A9D20E224335AB0028264F /* CLModelCompareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A9D1E0224335A90028264F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "周冯婷";
+				TargetAttributes = {
+					C5A9D1E7224335A90028264F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C5A9D202224335AB0028264F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5A9D1E7224335A90028264F;
+					};
+					C5A9D20D224335AB0028264F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5A9D1E7224335A90028264F;
+					};
+				};
+			};
+			buildConfigurationList = C5A9D1E3224335A90028264F /* Build configuration list for PBXProject "CLModelCompare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5A9D1DF224335A90028264F;
+			productRefGroup = C5A9D1E9224335A90028264F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A9D1E7224335A90028264F /* CLModelCompare */,
+				C5A9D202224335AB0028264F /* CLModelCompareTests */,
+				C5A9D20D224335AB0028264F /* CLModelCompareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A9D1E6224335A90028264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A9D1FB224335AB0028264F /* LaunchScreen.storyboard in Resources */,
+				C5A9D1F8224335AB0028264F /* Assets.xcassets in Resources */,
+				C5A9D1F3224335A90028264F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D201224335AB0028264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D20C224335AB0028264F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121F44D9314A514587314632 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLModelCompareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C90996F27543FDF71D33EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLModelCompareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1CA25D4F8C6235CB63811B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLModelCompare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A9D1E4224335A90028264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A9D1F0224335A90028264F /* ViewController.m in Sources */,
+				C5A9D1ED224335A90028264F /* AppDelegate.m in Sources */,
+				C5A9D1FE224335AB0028264F /* main.m in Sources */,
+				C5A9D1F6224335A90028264F /* CLModelCompare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D1FF224335AB0028264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A9D208224335AB0028264F /* CLModelCompareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A9D20A224335AB0028264F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A9D213224335AB0028264F /* CLModelCompareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A9D205224335AB0028264F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A9D1E7224335A90028264F /* CLModelCompare */;
+			targetProxy = C5A9D204224335AB0028264F /* PBXContainerItemProxy */;
+		};
+		C5A9D210224335AB0028264F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A9D1E7224335A90028264F /* CLModelCompare */;
+			targetProxy = C5A9D20F224335AB0028264F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5A9D1F1224335A90028264F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A9D1F2224335A90028264F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5A9D1F9224335AB0028264F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5A9D1FA224335AB0028264F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5A9D215224335AB0028264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5A9D216224335AB0028264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A9D218224335AB0028264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C547700F56FB2E99687680F /* Pods-CLModelCompare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5A9D219224335AB0028264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E424E7526C41BEBD6B525A3 /* Pods-CLModelCompare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5A9D21B224335AB0028264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74786EEEF4D33965E2AE9AA8 /* Pods-CLModelCompareTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLModelCompare.app/CLModelCompare";
+			};
+			name = Debug;
+		};
+		C5A9D21C224335AB0028264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C02A555B65792B6E5F0126 /* Pods-CLModelCompareTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CLModelCompare.app/CLModelCompare";
+			};
+			name = Release;
+		};
+		C5A9D21E224335AB0028264F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B3FFC4ABBA6C89E06F0312B /* Pods-CLModelCompareUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLModelCompare;
+			};
+			name = Debug;
+		};
+		C5A9D21F224335AB0028264F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE178E3AD988F622986B77B /* Pods-CLModelCompareUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8VUJHXMQB4;
+				INFOPLIST_FILE = CLModelCompareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = plan.CLModelCompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CLModelCompare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A9D1E3224335A90028264F /* Build configuration list for PBXProject "CLModelCompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A9D215224335AB0028264F /* Debug */,
+				C5A9D216224335AB0028264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A9D217224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A9D218224335AB0028264F /* Debug */,
+				C5A9D219224335AB0028264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A9D21A224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A9D21B224335AB0028264F /* Debug */,
+				C5A9D21C224335AB0028264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A9D21D224335AB0028264F /* Build configuration list for PBXNativeTarget "CLModelCompareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A9D21E224335AB0028264F /* Debug */,
+				C5A9D21F224335AB0028264F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5A9D1F4224335A90028264F /* CLModelCompare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5A9D1F5224335A90028264F /* CLModelCompare.xcdatamodel */,
+			);
+			currentVersion = C5A9D1F5224335A90028264F /* CLModelCompare.xcdatamodel */;
+			path = CLModelCompare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5A9D1E0224335A90028264F /* Project object */;
+}
