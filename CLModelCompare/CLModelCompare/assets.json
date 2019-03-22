@@ -1,0 +1,19 @@
+{
+	"name":"xiaoming",
+	"age":18,
+	"isMarry":false,
+	"assets":{
+		"totalAmount":10000034567.23,
+		"list":[
+			{
+				"symbol":"house",
+				"amount":345687990.11,
+			},
+			{
+				"symbol":"car",
+				"amount":4534875847.12,
+			}
+
+		]
+	}
+}

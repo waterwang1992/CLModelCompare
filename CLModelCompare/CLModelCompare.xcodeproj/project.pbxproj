@@ -17,6 +17,12 @@
 		C5A9D1FE224335AB0028264F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D1FD224335AB0028264F /* main.m */; };
 		C5A9D208224335AB0028264F /* CLModelCompareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D207224335AB0028264F /* CLModelCompareTests.m */; };
 		C5A9D213224335AB0028264F /* CLModelCompareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D212224335AB0028264F /* CLModelCompareUITests.m */; };
+		C5A9D22122437B8B0028264F /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = C5A9D22022437B8B0028264F /* assets.json */; };
+		C5A9D22422437BE00028264F /* CLJSONReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D22322437BE00028264F /* CLJSONReader.m */; };
+		C5A9D22822437E500028264F /* CLInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D22722437E500028264F /* CLInteractor.m */; };
+		C5A9D22B22437E6D0028264F /* CLAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D22A22437E6D0028264F /* CLAssetModel.m */; };
+		C5A9D22E22437EC40028264F /* CLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D22D22437EC40028264F /* CLUserModel.m */; };
+		C5A9D23122437ED60028264F /* CLAssetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9D23022437ED60028264F /* CLAssetItem.m */; };
 		C7233D7FE1DD494C6D073490 /* libPods-CLModelCompareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8875CBB3F67106088E2FBBD9 /* libPods-CLModelCompareTests.a */; };
 		D0C10B962CA94C9C37419367 /* libPods-CLModelCompare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 866652331499FD16438A16AB /* libPods-CLModelCompare.a */; };
 /* End PBXBuildFile section */
@@ -63,6 +69,17 @@
 		C5A9D20E224335AB0028264F /* CLModelCompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLModelCompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5A9D212224335AB0028264F /* CLModelCompareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLModelCompareUITests.m; sourceTree = "<group>"; };
 		C5A9D214224335AB0028264F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A9D22022437B8B0028264F /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		C5A9D22222437BE00028264F /* CLJSONReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLJSONReader.h; sourceTree = "<group>"; };
+		C5A9D22322437BE00028264F /* CLJSONReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLJSONReader.m; sourceTree = "<group>"; };
+		C5A9D22622437E500028264F /* CLInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLInteractor.h; sourceTree = "<group>"; };
+		C5A9D22722437E500028264F /* CLInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLInteractor.m; sourceTree = "<group>"; };
+		C5A9D22922437E6D0028264F /* CLAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAssetModel.h; sourceTree = "<group>"; };
+		C5A9D22A22437E6D0028264F /* CLAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAssetModel.m; sourceTree = "<group>"; };
+		C5A9D22C22437EC40028264F /* CLUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLUserModel.h; sourceTree = "<group>"; };
+		C5A9D22D22437EC40028264F /* CLUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLUserModel.m; sourceTree = "<group>"; };
+		C5A9D22F22437ED60028264F /* CLAssetItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLAssetItem.h; sourceTree = "<group>"; };
+		C5A9D23022437ED60028264F /* CLAssetItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLAssetItem.m; sourceTree = "<group>"; };
 		CDE178E3AD988F622986B77B /* Pods-CLModelCompareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLModelCompareUITests.release.xcconfig"; path = "Target Support Files/Pods-CLModelCompareUITests/Pods-CLModelCompareUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D66FD0955F5DB73CB874A5C6 /* libPods-CLModelCompareUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CLModelCompareUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,7 +132,6 @@
 				8B3FFC4ABBA6C89E06F0312B /* Pods-CLModelCompareUITests.debug.xcconfig */,
 				CDE178E3AD988F622986B77B /* Pods-CLModelCompareUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +160,10 @@
 		C5A9D1EA224335A90028264F /* CLModelCompare */ = {
 			isa = PBXGroup;
 			children = (
+				C5A9D22522437E2B0028264F /* model */,
+				C5A9D22022437B8B0028264F /* assets.json */,
+				C5A9D22222437BE00028264F /* CLJSONReader.h */,
+				C5A9D22322437BE00028264F /* CLJSONReader.m */,
 				C5A9D1EB224335A90028264F /* AppDelegate.h */,
 				C5A9D1EC224335A90028264F /* AppDelegate.m */,
 				C5A9D1EE224335A90028264F /* ViewController.h */,
@@ -154,6 +174,8 @@
 				C5A9D1FC224335AB0028264F /* Info.plist */,
 				C5A9D1FD224335AB0028264F /* main.m */,
 				C5A9D1F4224335A90028264F /* CLModelCompare.xcdatamodeld */,
+				C5A9D22622437E500028264F /* CLInteractor.h */,
+				C5A9D22722437E500028264F /* CLInteractor.m */,
 			);
 			path = CLModelCompare;
 			sourceTree = "<group>";
@@ -174,6 +196,19 @@
 				C5A9D214224335AB0028264F /* Info.plist */,
 			);
 			path = CLModelCompareUITests;
+			sourceTree = "<group>";
+		};
+		C5A9D22522437E2B0028264F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9D22922437E6D0028264F /* CLAssetModel.h */,
+				C5A9D22A22437E6D0028264F /* CLAssetModel.m */,
+				C5A9D22C22437EC40028264F /* CLUserModel.h */,
+				C5A9D22D22437EC40028264F /* CLUserModel.m */,
+				C5A9D22F22437ED60028264F /* CLAssetItem.h */,
+				C5A9D23022437ED60028264F /* CLAssetItem.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +319,7 @@
 			files = (
 				C5A9D1FB224335AB0028264F /* LaunchScreen.storyboard in Resources */,
 				C5A9D1F8224335AB0028264F /* Assets.xcassets in Resources */,
+				C5A9D22122437B8B0028264F /* assets.json in Resources */,
 				C5A9D1F3224335A90028264F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,10 +414,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5A9D23122437ED60028264F /* CLAssetItem.m in Sources */,
 				C5A9D1F0224335A90028264F /* ViewController.m in Sources */,
+				C5A9D22822437E500028264F /* CLInteractor.m in Sources */,
+				C5A9D22422437BE00028264F /* CLJSONReader.m in Sources */,
 				C5A9D1ED224335A90028264F /* AppDelegate.m in Sources */,
+				C5A9D22B22437E6D0028264F /* CLAssetModel.m in Sources */,
 				C5A9D1FE224335AB0028264F /* main.m in Sources */,
 				C5A9D1F6224335A90028264F /* CLModelCompare.xcdatamodeld in Sources */,
+				C5A9D22E22437EC40028264F /* CLUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +597,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VUJHXMQB4;
 				INFOPLIST_FILE = CLModelCompare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -574,6 +616,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8VUJHXMQB4;
 				INFOPLIST_FILE = CLModelCompare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

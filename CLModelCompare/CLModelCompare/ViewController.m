@@ -7,15 +7,21 @@
 //
 
 #import "ViewController.h"
+#import "CLInteractor.h"
+#import "MJExtension.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) CLInteractor *interactor;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+   _interactor =  [CLInteractor new];
+    [_interactor startTest];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
