@@ -18,12 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-   _interactor =  [CLInteractor new];
+    _interactor =  [CLInteractor new];
     [_interactor startTest];
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//字典转json格式字符串：
+- (NSString*)dictionaryToJson:(NSDictionary *)dic
+{
+    NSError *parseError = nil;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:&parseError];
+    
+    return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+}
 
 @end

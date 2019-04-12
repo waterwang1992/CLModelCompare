@@ -10,4 +10,11 @@
 
 @implementation CLUserModel
 
++ (BOOL)propertyIsIgnored:(NSString *)propertyName {
+    if ([propertyName isEqualToString:@"customDelegate"]) {
+        return YES;
+    }
+    return [super propertyIsIgnored:propertyName];
+}
+
 @end

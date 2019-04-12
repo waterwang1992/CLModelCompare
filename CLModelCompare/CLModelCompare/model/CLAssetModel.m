@@ -10,7 +10,18 @@
 
 @implementation CLAssetModel
 
+#pragma mark - mj
+
 + (NSDictionary *)mj_objectClassInArray{
     return @{@"list":[CLAssetItem class]};
+}
+
+#pragma mark - jsonModel
+
++ (Class)classForCollectionProperty:(NSString *)propertyName{
+    if ([propertyName isEqualToString:@"list"]) {
+        return [CLAssetItem class];
+    }
+    return [super classForCollectionProperty:propertyName];
 }
 @end

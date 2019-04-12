@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CLInteractor : NSObject
 - (void)startTest;
+
+@property (nonatomic, copy) NSString *haha;
 @end
 
 NS_ASSUME_NONNULL_END

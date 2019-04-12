@@ -6,11 +6,11 @@
 //  Copyright © 2019年 周冯婷. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <JSONModel/JSONModelLib.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CLAssetItem : NSObject
+@interface CLAssetItem : JSONModel
 @property (nonatomic, copy) NSString *symbol;
 @property (nonatomic, assign) float amount;
 @end

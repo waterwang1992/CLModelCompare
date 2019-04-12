@@ -6,13 +6,13 @@
 //  Copyright © 2019年 周冯婷. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <JSONModel/JSONModelLib.h>
 #import "CLAssetItem.h"
 #import "MJExtension.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CLAssetModel : NSObject
+@interface CLAssetModel : JSONModel
 @property (nonatomic, assign) float totalAmount;
 @property (nonatomic, copy) NSArray <CLAssetItem *> *list;
 @end
