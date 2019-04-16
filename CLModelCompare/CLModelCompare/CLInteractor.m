@@ -31,7 +31,9 @@
     
     //[self testMJModel];
     
-    [self testYYModel];
+    // [self testYYModel];
+    
+    [self testScanner];
     
 }
 
@@ -61,6 +63,40 @@
     CLUserModel *userM = [CLUserModel yy_modelWithJSON:_dict];
     
     NSLog(@"%@", userM);
+}
+
+
+- (void)testScanner{
+    
+    
+    NSString *str1 = @"@\"<AbstractJSONModelProtocol><NSCopying>\"";
+    //NSString *str2 = @"@\"NSArray\"";
+    
+    NSLog(@"str1: %@", str1);
+    
+    
+    NSScanner *scanner = [NSScanner scannerWithString:str1];
+    
+    if (![scanner scanString:@"@\"" intoString:NULL]) return;
+    
+    NSString *clsName = nil;
+    if ([scanner scanUpToCharactersFromSet: [NSCharacterSet characterSetWithCharactersInString:@"\"<"] intoString:&clsName]) {
+        if (clsName.length) NSLog(@"class name:%@", clsName);
+    }
+    
+    NSMutableArray *protocols = nil;
+    while ([scanner scanString:@"<" intoString:NULL]) {
+        NSString* protocol = nil;
+        if ([scanner scanUpToString:@">" intoString: &protocol]) {
+            if (protocol.length) {
+                if (!protocols) protocols = [NSMutableArray new];
+                [protocols addObject:protocol];
+            }
+        }
+        [scanner scanString:@">" intoString:NULL];
+    }
+    NSLog(@"protocols: %@", protocols);
+    
 }
 
 @end

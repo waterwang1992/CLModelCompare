@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSInteger age;
 @property (nonatomic, assign) BOOL isMarry;
 @property (nonatomic, strong) CLAssetModel *assets;
-@property (nonatomic, weak) id <AbstractJSONModelProtocol>customDelegate;
+@property (nonatomic, weak) id <AbstractJSONModelProtocol, NSCopying>customDelegate;
 @end
 
 NS_ASSUME_NONNULL_END
