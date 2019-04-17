@@ -1,6 +1,21 @@
 # <center>Why YY faster</center>
 
-some tips
+## performance
+
+Time cost (process GithubUser 10000 times on iPhone 6):
+![compare](source/performanceCompare.png)
+
+Features
+- High performance: The conversion performance is close to handwriting code.
+- Automatic type conversion: The object types can be automatically converted.
+- Type Safe: All data types will be verified to ensure type-safe during the conversion process.
+- Non-intrusive: There is no need to make the model class inherit from other base class.
+- Lightwight: This library contains only 5 files.
+Docs and unit testing: 100% docs coverage, 99.6% code coverage.
+
+
+
+## some tips
 
 - 缓存Model JSON 转换过程中需要很多类的元数据，如果数据足够小，则全部缓存到内存中。
 
@@ -17,4 +32,15 @@ some tips
 - 尽量用纯 C 函数、内联函数使用纯 C 函数可以避免 ObjC 的消息发送带来的开销。如果 C 函数比较小，使用 inline 可以避免一部分压栈弹栈等函数调用的开销。
 
 - 减少遍历的循环次数在 JSON 和 Model 转换前，Model 的属性个数和 JSON 的属性个数都是已知的，这时选择数量较少的那一方进行遍历，会节省很多时间
+
+
+[参考文档 github YYModel](https://github.com/ibireme/YYModel)
+
+[参考文档 Full API documentation cocoaDocs](http://cocoadocs.org/docsets/YYModel/)
+
+[参考文档 iOS JSON 模型转换库评测](https://blog.ibireme.com/2015/10/23/ios_model_framework_benchmark/)
+
+[参考文档 YYModel 源码剖析：关注性能](https://www.jianshu.com/p/fe30e6bbc551)
+
+[评测 代码 https://github.com/ibireme/YYModel/tree/master/Benchmark](https://github.com/ibireme/YYModel/tree/master/Benchmark)
 
