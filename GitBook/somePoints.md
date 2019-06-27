@@ -64,10 +64,80 @@ note: 而如果函数使用强制内联，那么最终就一定是内联
 @package变量，对于framework内部，相当于@protected， 对于framework外部，相当于@privat。
 这个特性，很适合用于开发第三方的静态类库，因为多数人并不希望让别人知道自己属性的值。
 
+[参考文档](https://blog.csdn.net/kaiyuanheshang/article/details/73166802)
+
 ## .(点）和->（箭头）的区别
 
 ``` .(点语法） ```是访问类的属性，本质是调用set、get方法。
 ``` -> (箭头) ```是访问成员变量，但成员变量默认受保护，所以常常报错，手动设为public即可解决
+
+## meta class
+
+
+类对象的定义
+
+```
+
+typedef struct objc_class *Class;
+
+struct objc_class {
+    Class isa  OBJC_ISA_AVAILABILITY;
+
+#if !__OBJC2__
+    Class super_class                                        OBJC2_UNAVAILABLE;
+    const char *name                                         OBJC2_UNAVAILABLE;
+    long version                                             OBJC2_UNAVAILABLE;
+    long info                                                OBJC2_UNAVAILABLE;
+    long instance_size                                       OBJC2_UNAVAILABLE;
+    struct objc_ivar_list *ivars                             OBJC2_UNAVAILABLE;
+    struct objc_method_list **methodLists                    OBJC2_UNAVAILABLE;
+    struct objc_cache *cache                                 OBJC2_UNAVAILABLE;
+    struct objc_protocol_list *protocols                     OBJC2_UNAVAILABLE;
+#endif
+
+} OBJC2_UNAVAILABLE;
+
+```
+
+id类型中存在一个可以找到类对象的指针,id定义:
+
+```
+
+typedef struct objc_object *id;
+struct objc_object {
+    Class isa  OBJC_ISA_AVAILABILITY;
+}
+
+```
+
+
+OC的对象通过isa找到类对象, 实例对象由类对象创建，类对象保存了实例对象的方法列表
+
+类对象由类元对象创建, 保存了类对象的方法列表
+
+
+### 实例对象 类 元类 及其继承关系 如图:
+
+![class_metaClass](source/class_metaClass.png)
+
+### a simple example
+
+```
+CustomObject * obj = [[CustomObject alloc] init];
+```
+
+- alloc是类方法，沿着isa找到CustomObject类元对象，发现没有实现alloc
+- 沿着super，找到NSObject类元方法，执行alloc方法，并把alloc加入到NSObject类元对象的Class Cache中
+- init是实例方法，沿着isa找到CustomObject的类对象，发现没有实现init
+- 沿着super，找到NSObject类对象，执行init，并把init加入到NSObject的类对象Class Cache中
+--------------------- 
+[参考](https://blog.csdn.net/hello_hwc/article/details/49682857)
+[原创博客](https://blog.csdn.net/hello_hwc/article/details/49682857)
+
+
+
+
+
 
 
 

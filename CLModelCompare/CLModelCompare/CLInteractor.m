@@ -29,11 +29,11 @@
     
     //[self testJsonModel];
     
-    //[self testMJModel];
+    [self testMJModel];
     
     // [self testYYModel];
     
-    [self testScanner];
+    //[self testScanner];
     
 }
 

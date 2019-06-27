@@ -10,6 +10,7 @@ target 'CLModelCompare' do
   pod 'YYModel'
   pod 'JSONModel'
   pod 'MJExtension'
+  pod 'MJRefresh'
 
 
 

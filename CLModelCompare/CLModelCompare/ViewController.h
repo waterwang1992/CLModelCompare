@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (class, nonatomic, strong) NSString *name;
 
 @end
 

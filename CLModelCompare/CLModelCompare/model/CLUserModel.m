@@ -17,4 +17,19 @@
     return [super propertyIsIgnored:propertyName];
 }
 
+
+#pragma mark - mj
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return  @{@"name":@"dictName[1][2].dictName2"};
+
+}
+
+
+
+// + (NSDictionary *)mj_replacedKeyFromPropertyName{
+//     return @{@"name":@[@"dictName[1][2]", @"dictName2"]};
+// }
+
+
 @end
